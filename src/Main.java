@@ -8,7 +8,7 @@ public class Main {
         double creditRate = 9.99;
 
         // Срок кредита в годах
-        int duration = 3;
+        int duration = 2;
 
         // Ежемесячный аннуитентный платёж
         double creditPayment = service.calculate(credit, creditRate, duration);
